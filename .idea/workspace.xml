@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b14495c-46f1-4655-b591-6ab4befc0f34" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Wy1pvbL7RiifDM0uM00UxJZFBm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sanford\Documents\NetBeansProjects\AI_8Puzzle\src\main\java\com\sanford\ai_8puzzle\GUI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Agent (1)">
+    <configuration name="Agent (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.Agent" />
+      <module name="AI_8Puzzle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sanford.puzzleAI.AI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Agent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanford.ai_8puzzle.AI.Agent" />
+      <module name="AI_8Puzzle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sanford.ai_8puzzle.AI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFrame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.GUI.MyFrame" />
+      <module name="AI_8Puzzle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sanford.puzzleAI.GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanford.ai_8puzzle.GUI.MyFrame" />
+      <module name="AI_8Puzzle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sanford.ai_8puzzle.GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemMAndC (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.problem.ProblemMAndC" />
+      <module name="AI_8Puzzle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sanford.puzzleAI.AI.problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Agent (1)" />
+        <item itemvalue="Application.MyFrame (1)" />
+        <item itemvalue="Application.ProblemMAndC (1)" />
+        <item itemvalue="Application.Agent" />
+        <item itemvalue="Application.MyFrame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b14495c-46f1-4655-b591-6ab4befc0f34" name="Default Changelist" comment="" />
+      <created>1580107207359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580107207359</updated>
+      <workItem from="1580107213693" duration="580000" />
+      <workItem from="1580137483988" duration="7228000" />
+      <workItem from="1580276854464" duration="2029000" />
+      <workItem from="1580314572450" duration="3407000" />
+      <workItem from="1580418312742" duration="231000" />
+      <workItem from="1580487376524" duration="3207000" />
+      <workItem from="1580709229313" duration="1262000" />
+      <workItem from="1580746713885" duration="3832000" />
+      <workItem from="1580919385146" duration="5501000" />
+      <workItem from="1580950086763" duration="1646000" />
+      <workItem from="1581087759206" duration="8932000" />
+      <workItem from="1581123660849" duration="814000" />
+      <workItem from="1581196135199" duration="58000" />
+      <workItem from="1581315062795" duration="493000" />
+      <workItem from="1581351268186" duration="4418000" />
+      <workItem from="1581485167588" duration="4089000" />
+      <workItem from="1581520346939" duration="6856000" />
+      <workItem from="1581837697883" duration="459000" />
+      <workItem from="1581838880259" duration="631000" />
+      <workItem from="1581959152533" duration="1599000" />
+      <workItem from="1582085574402" duration="11652000" />
+      <workItem from="1582217325815" duration="2055000" />
+      <workItem from="1582221320316" duration="1113000" />
+      <workItem from="1582228941035" duration="785000" />
+      <workItem from="1582253413523" duration="682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581096703535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581096703535" />
+    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1582253828296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582253828296" />
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580107268508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580107268508" />
+    <state x="52" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580315668699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="52" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580315668699" />
+    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582253625802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1582253625802" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580921480836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580921480836" />
+    <state x="210" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580922087389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="210" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580922087389" />
+    <state x="718" y="382" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582254053095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="382" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582254053095" />
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1582254095588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582254095588" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1582254095588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582254095588" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1582254095587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582254095587" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1582254095588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582254095588" />
+    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1582253443608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582253443608" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582253413489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582253413489" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1580490546472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1580490546472" />
+    <state x="690" y="286" key="extract.method.dialog" timestamp="1582091224077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="286" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582091224077" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1582218733864">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582218733864" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582087183828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582087183828" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sanford/ai_8puzzle/AI/ValidityChecker.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sanford/ai_8puzzle/AI/Action.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sanford/ai_8puzzle/AI/ValidityChecker.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sanford/ai_8puzzle/AI/problem/ProblemMAndC.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sanford/ai_8puzzle/AI/QueueFIFO.java</url>
+          <line>25</line>
+          <properties class="com.sanford.ai_8puzzle.AI.QueueFIFO" method="isEmpty">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sanford/ai_8puzzle/AI/Agent.java</url>
+          <line>96</line>
+          <properties class="com.sanford.ai_8puzzle.AI.Agent" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
