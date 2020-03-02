@@ -12,12 +12,16 @@ import com.sanford.puzzleAI.AI.ValidityChecker;
  * @author Sanford
  */
 public class MyFrame extends javax.swing.JFrame {
-
+    private String presets[] ={"M&C1", "M&C2", "M&C3","M&C4","8Puzzle1","8Puzzle2", "8Puzzle3","8Puzzle4"};
     /**
      * Creates new form MyFrame
      */
     public MyFrame() {
         initComponents();
+        cmbPresets.removeAllItems();
+        for(String preset: presets) {
+            cmbPresets.addItem(preset);
+        }
     }
 
     /**
@@ -32,6 +36,7 @@ public class MyFrame extends javax.swing.JFrame {
         btnSolve = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         txtInput = new javax.swing.JTextArea();
+        cmbPresets = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -46,25 +51,35 @@ public class MyFrame extends javax.swing.JFrame {
         txtInput.setRows(5);
         jScrollPane1.setViewportView(txtInput);
 
+        cmbPresets.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cmbPresets.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cmbPresetsActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(145, 145, 145)
-                        .addComponent(btnSolve)))
+                .addGap(20, 20, 20)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(145, 145, 145)
+                .addComponent(btnSolve)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(cmbPresets, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(23, 23, 23))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(btnSolve)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSolve)
+                    .addComponent(cmbPresets, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(22, Short.MAX_VALUE))
@@ -78,6 +93,33 @@ public class MyFrame extends javax.swing.JFrame {
         ValidityChecker validityChecker;
         validityChecker = new ValidityChecker(inputString);
     }//GEN-LAST:event_btnSolveActionPerformed
+
+    private void cmbPresetsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbPresetsActionPerformed
+        String input = (String)cmbPresets.getSelectedItem();
+        if(input != null){
+            switch(input){
+                case "M&C1":
+                    txtInput.setText("M&C#331000#000133");
+                    break;
+                case "M&C2":
+                    txtInput.setText("M&C#000133#331000");
+                    break;
+                case "M&C3": //example of invalid input
+                    txtInput.setText("M&C#111000#000133");
+                    break;
+                case "M&C4":
+                    txtInput.setText("M&C#330100#331000");
+                    break;
+                 /*
+                 //TODO: Add in examples of 8 puzzle
+                case "8Puzzle1":
+                case "8Puzzle2":
+                case "8Puzzle3":
+                case "8Puzzle4":
+                */
+            }
+        }
+    }//GEN-LAST:event_cmbPresetsActionPerformed
 
     /**
      * @param args the command line arguments
@@ -116,6 +158,7 @@ public class MyFrame extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnSolve;
+    private javax.swing.JComboBox<String> cmbPresets;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea txtInput;
     // End of variables declaration//GEN-END:variables
