@@ -1,7 +1,7 @@
 package com.sanford.puzzleAI.AI;
 
 import static com.sanford.puzzleAI.Util.divideIntoSegments;
-
+//TODO: Put in Validity Checker Main
 /**
  *How To Add a new checker:
  * 1. Register the name of the puzzle in the switch. 
@@ -22,7 +22,10 @@ public class ValidityChecker {
         validateByType();
         if(isValid){
             agent = new Agent(input);
-            agent.getSeq();
+            System.out.println(agent.getSeq());
+        }
+        else{
+            System.out.println("The problem is not valid.");
         }
     }
     private void validateByType(){
@@ -41,6 +44,7 @@ public class ValidityChecker {
                 System.out.println("Puzzle Type: Maze");
                 validateMazeCords(puzzleData[0], "Problem");
                 validateMazeCords(puzzleData[1], "Solution");
+                break;
             default:
                 isValid = false;
                 System.out.println(puzzleData[0] + " is not a valid type of game");

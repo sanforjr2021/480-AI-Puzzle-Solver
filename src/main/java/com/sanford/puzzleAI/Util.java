@@ -3,7 +3,6 @@ package com.sanford.puzzleAI;
 import com.sanford.puzzleAI.AI.Action;
 
 public class Util {
-    public static Boolean debug = false;
     /**
      * Converts a String to a list of integers.
      * @param stringOfInts
@@ -20,7 +19,6 @@ public class Util {
         }
         return  list;
     }
-
     /**
      * Converts an Array of Integers to a String
      * @param ints
@@ -33,20 +31,24 @@ public class Util {
         }
         return compiledString;
     }
+
+    /**
+     * Divides a string based off of where # are and clean them up to reduce spaces and be lowercase.
+     * @param data
+     * @return
+     */
     public static String[] divideIntoSegments(String data){
-        return data.toLowerCase().split("#");
+        return data.toLowerCase().trim().split("#");
     }
 
-    public static void toggleDebug(){
-        debug = !debug;
-    }
-
-    public static void main(String[] args){
-        Action a = new Action("Row#02");
-        String[] segments = divideIntoSegments(a.toString());
-        System.out.println("Segment[1]=" + segments[1]);
-        Integer[] integers = convertStringToIntegers(segments[1]);
-        System.out.println(integers[0]);
-        System.out.println(integers[1]);
+    public static String switchTwoCharacters(String s, int startIndex, int endIndex){
+        char startIndexChar = s.charAt(startIndex);
+        char endIndexChar = s.charAt(endIndex);
+        char list[] = s.toCharArray();
+        //switch end char and start char
+        list[startIndex] = endIndexChar;
+        list[endIndex] = startIndexChar;
+        //make it back to a string.
+        return String.valueOf(list);
     }
 }
