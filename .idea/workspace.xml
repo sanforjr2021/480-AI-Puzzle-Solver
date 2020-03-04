@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b14495c-46f1-4655-b591-6ab4befc0f34" name="Default Changelist" comment="" />
+    <list default="true" id="6b14495c-46f1-4655-b591-6ab4befc0f34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uninformed Search Project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/ValidityChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/ValidityChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/problem/Problem8Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/problem/Problem8Puzzle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/Util.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -45,7 +57,7 @@
       <recent name="C:\Users\Sanford\Documents\NetBeansProjects\AI_8Puzzle\src\main\java\com\sanford\ai_8puzzle\GUI" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Agent (1)">
+  <component name="RunManager" selected="Application.MyFrame (1)">
     <configuration name="Agent (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.Agent" />
       <module name="AI_8Puzzle" />
@@ -85,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanford.ai_8puzzle.GUI.MyFrame" />
+    <configuration name="Problem8Puzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.problem.Problem8Puzzle" />
       <module name="AI_8Puzzle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanford.ai_8puzzle.GUI.*" />
+          <option name="PATTERN" value="com.sanford.puzzleAI.AI.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Agent (1)" />
         <item itemvalue="Application.MyFrame (1)" />
+        <item itemvalue="Application.Problem8Puzzle" />
+        <item itemvalue="Application.Agent (1)" />
         <item itemvalue="Application.ProblemMAndC (1)" />
         <item itemvalue="Application.Agent" />
-        <item itemvalue="Application.MyFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +168,11 @@
       <workItem from="1582221320316" duration="1113000" />
       <workItem from="1582228941035" duration="785000" />
       <workItem from="1582253413523" duration="682000" />
+      <workItem from="1582293783156" duration="8835000" />
+      <workItem from="1582348489330" duration="1224000" />
+      <workItem from="1582561032026" duration="669000" />
+      <workItem from="1582733816332" duration="2378000" />
+      <workItem from="1583296341602" duration="6406000" />
     </task>
     <servers />
   </component>
@@ -167,10 +184,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581096703535" />
-    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1582253828296">
+    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1582293816257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582253828296" />
+    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582293816257" />
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580107268508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,30 +212,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="382" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582254053095" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1583303580448">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583303580448" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1583303580447">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583303580447" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1583303580447">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583303580447" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1583303580448">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583303580448" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1582253443608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582253443608" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582253413489">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1583296427703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582253413489" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583296427703" />
     <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1580490546472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,10 +232,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582218733864" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582087183828">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583301089629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582087183828" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583301089629" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -258,6 +259,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/sanford/ai_8puzzle/AI/problem/ProblemMAndC.java</url>
           <line>20</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/problem/Problem8Puzzle.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/sanford/ai_8puzzle/AI/QueueFIFO.java</url>
