@@ -195,22 +195,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="382" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582254053095" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1582254095588">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1583303580448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582254095588" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1582254095588">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583303580448" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1583303580447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582254095588" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1582254095587">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583303580447" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1583303580447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582254095587" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1582254095588">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583303580447" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1583303580448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582254095588" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583303580448" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1582253443608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -262,7 +262,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/sanford/ai_8puzzle/AI/QueueFIFO.java</url>
           <line>25</line>
-          <properties class="com.sanford.ai_8puzzle.AI.QueueFIFO" method="isEmpty">
+          <properties class="com.sanford.ai_8puzzle.AI.QueueFIFO">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
@@ -270,7 +270,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/sanford/ai_8puzzle/AI/Agent.java</url>
           <line>96</line>
-          <properties class="com.sanford.ai_8puzzle.AI.Agent" method="main">
+          <properties class="com.sanford.ai_8puzzle.AI.Agent">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="15" />

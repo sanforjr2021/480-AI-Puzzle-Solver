@@ -105,18 +105,23 @@ public class MyFrame extends javax.swing.JFrame {
                     txtInput.setText("M&C#000133#331000");
                     break;
                 case "M&C3": //example of invalid input
-                    txtInput.setText("M&C#111000#000133");
+                    txtInput.setText("M&C#321001#000133");
                     break;
                 case "M&C4":
-                    txtInput.setText("M&C#330100#331000");
+                    txtInput.setText("M&C#000133#321001");
                     break;
-                 /*
-                 //TODO: Add in examples of 8 puzzle
                 case "8Puzzle1":
+                    txtInput.setText("8Puzzle#012345678#123456780");
+                    break;
                 case "8Puzzle2":
+                    txtInput.setText("8Puzzle#123456780#012345678");
+                    break;
                 case "8Puzzle3":
+                    txtInput.setText("8Puzzle#321654870#012345678");
+                    break;
                 case "8Puzzle4":
-                */
+                    txtInput.setText("8Puzzle#123456780#321654870");
+                    break;
             }
         }
     }//GEN-LAST:event_cmbPresetsActionPerformed
