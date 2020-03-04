@@ -1,6 +1,7 @@
 package com.sanford.puzzleAI.AI;
 
 import com.sanford.puzzleAI.AI.problem.Problem;
+import com.sanford.puzzleAI.AI.problem.Problem8Puzzle;
 import com.sanford.puzzleAI.AI.problem.ProblemMAndC;
 
 import java.util.ArrayList;
@@ -34,16 +35,20 @@ public class Agent {
         //TODO: complete the method
         return null;
     }
-    private Problem formulateProblem(State state, State goal){
-        switch(dataSegments[0]){
+    private Problem formulateProblem(State state, State goal) {
+        Problem problem;
+        switch (dataSegments[0]) {
             case "m&c":
-                return new ProblemMAndC(state, goal);
+                problem = new ProblemMAndC(state, goal);
+                break;
             case "8puzzle":
-                System.out.println("8Puzzle not implemented yet");
-                return null;
+                problem = new Problem8Puzzle(state, goal);
+                break;
             default:
-                System.out.println("No valid problem type entered.");        }
-                return null;
+                System.out.println("No valid problem type entered.");
+                problem = null;
+        }
+        return problem;
     }
     private Node childNode(Problem problem, Node parent, Action action){
         return new Node(problem, parent, action);
@@ -73,7 +78,6 @@ public class Agent {
                 else if(frontier.isStateInQueue(childNode)){ //check to see if its in the frontier
                     System.out.println("\tNode is already in frontier.");
                 }
-
                 else if(explored.isStateInQueue(childNode)){ //check to see if its in the explored
                     System.out.println("\tNode is already in explored");
                 }
@@ -91,6 +95,7 @@ public class Agent {
             }//end of for actions
             System.out.println("\nFrontier Size:" + frontier.getSize() + "\tExplored Size: " + explored.getSize()) ;
         }//end of while
+        System.out.println("*************************************\n\t\tNo Valid Solution\n***************************************");
         return null;
     }//end of breadthFirstSearch
 
