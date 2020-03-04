@@ -96,12 +96,24 @@ public class Agent {
             System.out.println("\nFrontier Size:" + frontier.getSize() + "\tExplored Size: " + explored.getSize()) ;
         }//end of while
         System.out.println("*************************************\n\t\tNo Valid Solution\n***************************************");
-        return null;
+        return new Sequence(new ArrayList<Action>());
     }//end of breadthFirstSearch
 
     public static void main(String[] args){
         Agent agent = new Agent("M&C#331000#000133");
         Sequence seq = agent.breadthFirstSearch(agent.problem);
+        System.out.println(seq.toString());
+
+        agent = new Agent("M&C#331000#000155");
+        seq = agent.breadthFirstSearch(agent.problem);
+        System.out.println(seq.toString());
+
+        agent = new Agent("8puzzle#012345678#102345678");
+        seq = agent.breadthFirstSearch(agent.problem);
+        System.out.println(seq.toString());
+
+        agent = new Agent("8puzzle#012345678#125348607");
+        seq = agent.breadthFirstSearch(agent.problem);
         System.out.println(seq.toString());
     }
 }

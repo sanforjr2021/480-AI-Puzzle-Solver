@@ -130,25 +130,32 @@ public class ProblemMAndC extends Problem {
 
     public static void main(String[] args){
         State initial = new State("331000");
+        State otherState = new State("310102");
         State goal = new State("000133");
         ProblemMAndC problem = new ProblemMAndC(initial, goal);
-        System.out.println("Initial State: " + problem.getInitialState());
-        System.out.println("Goal State:" + problem.getGoalState());
-        System.out.println(problem.toString());
-        System.out.println("\nGoal Test:" + problem.goalTest(problem.getInitialState()));
-        System.out.println("Goal Test with final state:" + problem.goalTest(problem.getGoalState()));
-        ArrayList<Action> list = problem.actions(initial);
-        System.out.println("\nPossible outcomes from initial state with a size of " + list.size());
-        for(int i = 0; i < list.size(); i++){
-            if(list.get(i).equals(null)){
-                System.out.println(i + " : Invalid Node.");
-            }
-            else{
-                System.out.println(i +" : " + list.get(i).toString());
-            }
+
+        System.out.println("Goal Test(Valid):" + problem.goalTest(goal));
+        System.out.println("Goal Test(Invalid):" + problem.goalTest(initial));
+        System.out.println("Goal Test(Invalid):" + problem.goalTest(otherState));
+
+        System.out.println("get Result(Invalid): " + problem.result(otherState, new Action("row#20")));
+        System.out.println("get Result(Invalid): " + problem.result(initial, new Action("row#20")));
+        System.out.println("get Result(Valid): " + problem.result(initial, new Action("row#02")));
+        System.out.println("get Result(Valid): " + problem.result(initial, new Action("row#11")));
+        System.out.println("get Result(Valid): " + problem.result(initial, new Action("row#01")));
+        System.out.println("get Result(Valid): " + problem.result(otherState, new Action("row#02")));
+
+        System.out.println("Test Actions for " + initial.toString());
+        for(Action a: problem.actions(initial)){
+            System.out.println(a.toString());
         }
-        State secondState = problem.result(initial, list.get(4));
-        System.out.println("Results of combining Initial state and action 2:");
-        System.out.println("\t\t" + secondState.toString());
+        System.out.println("Test Actions for " + otherState.toString());
+        for(Action a: problem.actions(otherState)){
+            System.out.println(a.toString());
+        }
+        System.out.println("Test Actions for " + goal.toString());
+        for(Action a: problem.actions(goal)){
+            System.out.println(a.toString());
+        }
     }
 }

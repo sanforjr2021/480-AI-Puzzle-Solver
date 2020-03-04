@@ -43,15 +43,13 @@ public class Sequence {
         actions.add(action4);
 
         Sequence seq = new Sequence(actions);
-        System.out.println("Creating Array:");
-        System.out.println("ToString:");
-        System.out.println(seq.toString());
         System.out.println("First: " + seq.getFirst().toString());
         System.out.println("Popping first");
         seq.pop();
         System.out.println("New First: " + seq.getFirst());
         System.out.println("Rest of the sequence:");
         System.out.println(seq.getRest().toString());
+        System.out.println("ToString: " + seq.toString());
     }
 
 

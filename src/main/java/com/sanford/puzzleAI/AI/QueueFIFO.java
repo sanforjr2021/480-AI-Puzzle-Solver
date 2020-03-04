@@ -1,5 +1,6 @@
 package com.sanford.puzzleAI.AI;
 
+import com.sanford.puzzleAI.AI.problem.Problem8Puzzle;
 import com.sanford.puzzleAI.AI.problem.ProblemMAndC;
 
 import java.util.ArrayList;
@@ -50,9 +51,9 @@ public class QueueFIFO {
     }
     public String toString(){
         String states = "";
-        for(int i = 0; i < nodes.size(); i++){
-            if(i%10 == 0){
-                states+="\n";
+        for (int i = 0; i < nodes.size(); i++) {
+            if (i % 10 == 0) {
+                states += "\n";
             }
             states += nodes.get(i).getState().toString() + ", ";
         }
@@ -60,24 +61,15 @@ public class QueueFIFO {
     }
     //Test Method
     public static void main(String[] args){
-        QueueFIFO queueFIFO = new QueueFIFO();
-        System.out.println("Is empty at start:" + queueFIFO.isEmpty());
-        queueFIFO.insert(new Node(
-                new ProblemMAndC(new State("331000"), new State("000133"))
-        ));
-        queueFIFO.insert(new Node(
-                new ProblemMAndC(new State("010132"), new State("000133"))
-        ));
-        System.out.println("Added 2 Nodes. Size is now: " + queueFIFO.getSize() +  ".\n Is Empty: " + queueFIFO.isEmpty());
-
-        System.out.println("Is state in queue(Should succeed):" +
-                queueFIFO.isStateInQueue(new Node(
-                        new ProblemMAndC(new State("010132"), new State("000133"))
-        )));
-        System.out.println("Is state in queue(Should fail):" + queueFIFO.isStateInQueue(new Node(
-                new ProblemMAndC(new State("010133"), new State("000133"))
-        )));
-        queueFIFO.pop();
-        System.out.println("Popped object." + queueFIFO.getSize());
+        QueueFIFO queue = new QueueFIFO();
+        System.out.println("Is empty:" + queue.isEmpty());
+        queue.insert(new Node(new Problem8Puzzle(new State("012345678"), new State("123456780"))));
+        queue.insert(new Node(new ProblemMAndC(new State("331000"), new State("000133"))));
+        System.out.println("Inserted 2 items");
+        for(Node node:  queue.getList()){
+            System.out.println(node.toString());
+        }
+        System.out.println("Popping item : "+ queue.pop().toString());
+        System.out.println("Is Empty: " + queue.isEmpty());
     }
 }

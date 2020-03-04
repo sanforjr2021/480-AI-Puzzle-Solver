@@ -28,6 +28,7 @@ public class Node {
         this.action = null;
         this.pathCost = 1;
     }
+
     public Sequence getSolution(){
         Node tempParent = parent;
         ArrayList<Action> actions = new ArrayList<Action>();
@@ -42,6 +43,16 @@ public class Node {
     }
 
     //getter & Setters
+    @Override
+    public String toString() {
+        return "Node{" +
+                "state=" + state +
+                ", parent=" + parent +
+                ", action=" + action +
+                ", pathCost=" + pathCost +
+                '}';
+    }
+
     public State getState() {
         return state;
     }
@@ -59,8 +70,14 @@ public class Node {
     }
 
     public static void main(String[] args){
-        Node myNode = new Node(new ProblemMAndC(new State("331000"), new State("000133")));
-        System.out.println(myNode.toString());
+        Problem p =  new ProblemMAndC(new State("331000"), new State("000133"));
+        Node node1 = new Node(p);
+        Node node2 = new Node(p, node1, new Action("row#02"));
+        Node node3 = new Node(p, node2, new Action("row#20"));
+        System.out.println("Node 3: " + node3.toString());
+        System.out.println("Sequence from Node 3:");
+        System.out.println(node3.getSolution().toString());
+       // System.out.println(myNode.toString());
     }
 }
   

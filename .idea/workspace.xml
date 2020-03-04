@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b14495c-46f1-4655-b591-6ab4befc0f34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uninformed Search Project.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/QueueFIFO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/QueueFIFO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Sequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/ValidityChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/ValidityChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/problem/Problem8Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/problem/Problem8Puzzle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/problem/ProblemMAndC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/problem/ProblemMAndC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/AI_8Puzzle.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +60,8 @@
       <recent name="C:\Users\Sanford\Documents\NetBeansProjects\AI_8Puzzle\src\main\java\com\sanford\ai_8puzzle\GUI" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyFrame (1)">
-    <configuration name="Agent (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Agent">
+    <configuration name="Agent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.Agent" />
       <module name="AI_8Puzzle" />
       <extension name="coverage">
@@ -71,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Agent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanford.ai_8puzzle.AI.Agent" />
+    <configuration name="Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.Node" />
       <module name="AI_8Puzzle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sanford.ai_8puzzle.AI.*" />
+          <option name="PATTERN" value="com.sanford.puzzleAI.AI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,33 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFrame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.GUI.MyFrame" />
-      <module name="AI_8Puzzle" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sanford.puzzleAI.GUI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem8Puzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.problem.Problem8Puzzle" />
-      <module name="AI_8Puzzle" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sanford.puzzleAI.AI.problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProblemMAndC (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ProblemMAndC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.problem.ProblemMAndC" />
       <module name="AI_8Puzzle" />
       <extension name="coverage">
@@ -123,13 +100,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueueFIFO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.QueueFIFO" />
+      <module name="AI_8Puzzle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sanford.puzzleAI.AI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.Sequence" />
+      <module name="AI_8Puzzle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sanford.puzzleAI.AI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyFrame (1)" />
-        <item itemvalue="Application.Problem8Puzzle" />
-        <item itemvalue="Application.Agent (1)" />
-        <item itemvalue="Application.ProblemMAndC (1)" />
         <item itemvalue="Application.Agent" />
+        <item itemvalue="Application.ProblemMAndC" />
+        <item itemvalue="Application.Sequence" />
+        <item itemvalue="Application.Node" />
+        <item itemvalue="Application.QueueFIFO" />
       </list>
     </recent_temporary>
   </component>
@@ -184,10 +187,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581096703535" />
-    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1582293816257">
+    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1583305095081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582293816257" />
+    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583305095081" />
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580107268508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -212,6 +215,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="382" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582254053095" />
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1583307169078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583307169078" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1583307169078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583307169078" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1583307169078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583307169078" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1583307169078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583307169078" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1582253443608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -280,6 +299,20 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Agent.java</url>
+          <line>101</line>
+          <properties class="com.sanford.puzzleAI.AI.Agent" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Sequence.java</url>
+          <line>6</line>
+          <properties field="actionArrayList" class="com.sanford.puzzleAI.AI.Sequence" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
