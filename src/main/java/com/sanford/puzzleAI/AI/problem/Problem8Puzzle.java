@@ -44,6 +44,7 @@ public class Problem8Puzzle extends Problem {
         //useful data
         String state = s.toString();
         String action = a.toString();
+        System.out.print("\tInitial State =" +state + "" +"\tAction=" + action);
         Integer indexOf0 = state.indexOf("0");
         Integer[] linearPuzzle = convertStringToIntegers(state);
         Integer[][] puzzleLayout = new Integer[3][3];
@@ -94,8 +95,10 @@ public class Problem8Puzzle extends Problem {
         for(Integer i = 0; i < linearPuzzle.length; i++){
             linearPuzzle[i] = puzzleLayout[i%3][i/3];
         }
+        s = new State(convertIntegersToString(linearPuzzle));
+        System.out.print("\tNew State = " + s.toString() + "\n");
         //convert it back into a string & State
-        return new State(convertIntegersToString(linearPuzzle));
+        return s;
     }
 
     @Override

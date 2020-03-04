@@ -82,14 +82,10 @@ public class Agent {
                     System.out.println("\tNode is already in explored");
                 }
                 else {
-                    System.out.println("\tNode Success in next stage. Adding to frontier.");
                     if(problem.goalTest(childNode.getState())){
                         System.out.println("*************************************\n\t\tFound Solution\n***************************************");
                         return childNode.getSolution();
                     }//end of if problem.goalTest
-                    else{
-                        System.out.println("I ignored your attempt to solve me");
-                    }
                     frontier.insert(childNode);
                 }//end of if for inStateInQueue
             }//end of for actions

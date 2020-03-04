@@ -4,14 +4,8 @@
     <list default="true" id="6b14495c-46f1-4655-b591-6ab4befc0f34" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/QueueFIFO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/QueueFIFO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Sequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/ValidityChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/ValidityChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/problem/ProblemMAndC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/problem/ProblemMAndC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/AI_8Puzzle.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/problem/Problem8Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/problem/Problem8Puzzle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +54,26 @@
       <recent name="C:\Users\Sanford\Documents\NetBeansProjects\AI_8Puzzle\src\main\java\com\sanford\ai_8puzzle\GUI" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Agent">
+  <component name="RunManager" selected="Application.MyFrame">
     <configuration name="Agent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.Agent" />
       <module name="AI_8Puzzle" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sanford.puzzleAI.AI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.GUI.MyFrame" />
+      <module name="AI_8Puzzle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sanford.puzzleAI.GUI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,19 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueFIFO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.QueueFIFO" />
-      <module name="AI_8Puzzle" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sanford.puzzleAI.AI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sanford.puzzleAI.AI.Sequence" />
       <module name="AI_8Puzzle" />
@@ -128,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyFrame" />
         <item itemvalue="Application.Agent" />
         <item itemvalue="Application.ProblemMAndC" />
         <item itemvalue="Application.Sequence" />
         <item itemvalue="Application.Node" />
-        <item itemvalue="Application.QueueFIFO" />
       </list>
     </recent_temporary>
   </component>
@@ -199,10 +193,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="52" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580315668699" />
-    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582253625802">
+    <state x="756" y="379" width="427" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583308184382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1582253625802" />
+    <state x="756" y="379" width="427" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1583308184382" />
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580921480836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -215,22 +209,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="382" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582254053095" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1583307169078">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1583308606305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583307169078" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1583307169078">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583308606305" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1583308606305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583307169078" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1583307169078">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583308606305" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1583308606305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583307169078" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1583307169078">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583308606305" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1583308606305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583307169078" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583308606305" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1582253443608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -251,10 +245,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582218733864" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583301089629">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583308163922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583301089629" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583308163922" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -302,7 +296,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/sanford/puzzleAI/AI/Agent.java</url>
-          <line>101</line>
+          <line>97</line>
           <properties class="com.sanford.puzzleAI.AI.Agent" method="main">
             <option name="EMULATED" value="true" />
           </properties>

@@ -14,7 +14,7 @@ public class Util {
             try{
                 list[i] =  Integer.parseInt(String.valueOf(stringOfInts.charAt(i)));
             } catch (NumberFormatException e) {
-                System.err.println("Value " + list[i] + " is not a number(Util.java:16)");
+                System.err.println("Value " + list[i] + " is not a number(Util.java:17)");
             }
         }
         return  list;
